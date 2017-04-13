@@ -49,6 +49,7 @@ void loop() {
   }
   
   // We now create a URI for the request
+ //Replace the keys with your PubNub Publish and Subscribe Keys
   String url = "http://pubsub.pubnub.com/publish/pub-c-dbe2d3c6-446e-4f4e-ab73-a2a6907f653c/sub-c-7d1d2c40-16f9-11e7-b284-02ee2ddab7fe/0/esphello/0/%22Hello%20World%22";
   
   Serial.print("Requesting URL: ");
